@@ -1,6 +1,7 @@
 package com.example.ddlaudioplayer;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -53,6 +54,11 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             return fragments.size();
+        }
+        @Nullable
+        @Override
+        public CharSequence getPageTitle(int position){
+            return titles.get(position);
         }
     }
 }
