@@ -52,7 +52,7 @@
             android:layout_height="match_parent"
             android:src="@drawable/bewedoc"
             android:scaleType="centerCrop"
-            android:id="@+id/cover_cart"/>
+            android:id="@+id/cover_art"/>
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="250dp"
